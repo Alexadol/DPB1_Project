@@ -1,0 +1,9 @@
+{
+  "config": {
+    "choise": {
+      "path_to_protein_file": "uniprot-superoxide+dismutase+crustacea.fasta",
+      "write_out_selected": "type",
+      "custom_list": null
+    }
+  }
+}
