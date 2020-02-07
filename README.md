@@ -15,20 +15,31 @@ In the beginning ORFs extraction from transcripts has implemented with help of T
 3. Haas & Papanicolaou et al., manuscript in prep.  http://transdecoder.github.io
 4. Gish, W. & States, D.J. (1993) "Identification of protein coding regions by database similarity search." Nature Genet. 3:266-272. PubMed
 5. https://github.com/trinityrnaseq/trinityrnaseq/wiki/Trinity-Transcript-Quantification
-6.Langmead B, Salzberg SL. Fast gapped-read alignment with Bowtie 2. Nat Methods. 2012;9(4):357–359. Published 2012 Mar 4. doi:10.1038/nmeth.1923
-7.Li, B., Dewey, C.N. RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome. BMC Bioinformatics 12, 323 (2011). https://doi.org/10.1186/1471-2105-12-323
-8.Lechner et al (2011). Proteinortho: Detection of (Co-)Orthologs in Large-Scale Analysis. BMC Bioinformatics 2011 Apr 28;12(1):124.
-9.Löytynoja, Ari. (2014). Phylogeny-aware alignment with PRANK. Methods in molecular biology (Clifton, N.J.). 1079. 155-70. 10.1007/978-1-62703-646-7_10. 
-10.trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses.
+6. Langmead B, Salzberg SL. Fast gapped-read alignment with Bowtie 2. Nat Methods. 2012;9(4):357–359. Published 2012 Mar 4. doi:10.1038/nmeth.1923
+7. Li, B., Dewey, C.N. RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome. BMC Bioinformatics 12, 323 (2011). https://doi.org/10.1186/1471-2105-12-323
+8. Lechner et al (2011). Proteinortho: Detection of (Co-)Orthologs in Large-Scale Analysis. BMC Bioinformatics 2011 Apr 28;12(1):124.
+9. Löytynoja, Ari. (2014). Phylogeny-aware alignment with PRANK. Methods in molecular biology (Clifton, N.J.). 1079. 155-70. 10.1007/978-1-62703-646-7_10. 
+10. trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses.
 Salvador Capella-Gutierrez; Jose M. Silla-Martinez; Toni Gabaldon. Bioinformatics 2009 25: 1972-1973.
-11.Nguyen LT, Schmidt HA, von Haeseler A, Minh BQ. IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies. Mol Biol Evol. 2015;32(1):268–274. doi:10.1093/molbev/msu300
+11. Nguyen LT, Schmidt HA, von Haeseler A, Minh BQ. IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies. Mol Biol Evol. 2015;32(1):268–274. doi:10.1093/molbev/msu300
 
 
 
 The main scripts in this repository is "Oxygen.sh"
 
 For launching this script you need to have pre-installed further software:
-*Python3
+* Python3
+* TrimAl v
+* RSEM v
+* IQtree v
+* TransDecoder v
+* Blast v
+* Bowtie v
+
+You should also have folders that contain the following scripts:
+* 
+*
+
 
 
 
