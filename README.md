@@ -1,4 +1,4 @@
-This project has focused on searching for adaptations to increased level of dissolved oxygen in Baikal Amphipodes using genea expression data.
+This project has focused on searching for adaptations to increased level of dissolved oxygen in Baikal Amphipods using genea expression data.
 
 Under the project the following tasks were resolved :
 * Search for sequences of antioxidant enzymes of Crustacean in data bases (Uniprot[1],NCBI[2])
@@ -29,7 +29,6 @@ The main scripts in this repository is "Oxygen.sh"
 
 For launching this script you need to have pre-installed further software:
 *Python3
-
 
 
 
