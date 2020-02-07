@@ -1,3 +1,12 @@
+This project has focused on searching for adaptation to increased level of dissolved oxygen in Baikal Amphipodes. 
+
+Under the project the following tasks were resolved :
+* Search for sequences of antioxidant enzymes of Crustacean in data bases (Uniprot[1],NCBI[2])
+* Search for transcripts with homology to these enzymes in transcriptome assemblies of three Amphipodes.Two of these species, Eulimnogammarus verrucosus and E. cyaneus, are endemic to Lake Baikal, while Gammarus lacustris is a potential invader.
+* Alignment of raw transcriptome reads on the reference transcriptome assemblies for three species using and further transcript quantification using Trinity scripts
+
+
+
 The main scripts in this repository is "Oxygen.sh"
 
 
