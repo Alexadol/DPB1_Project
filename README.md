@@ -1,4 +1,4 @@
-This project has focused on searching for adaptations to increased level of dissolved oxygen in Baikal Amphipods using genea expression data.
+This project has focused on searching for adaptations to increased level of dissolved oxygen in Baikal Amphipods using gene expression data.
 
 Under the project the following tasks were resolved :
 * Search for sequences of antioxidant enzymes of Crustacean in data bases (Uniprot[1],NCBI[2])
@@ -27,19 +27,18 @@ Salvador Capella-Gutierrez; Jose M. Silla-Martinez; Toni Gabaldon. Bioinformatic
 
 The main scripts in this repository is "Oxygen.sh"
 
-For launching this script you need to have pre-installed further software:
-* Python3
-* TrimAl v
-* RSEM v
-* IQtree v
-* TransDecoder v
-* Blast v
-* Bowtie v
+For launching this script you need to have pre-installed the following software:
+* Python3 (any version)
+* TrimAl v1.2
+* RSEM v1.3.0
+* IQtree v1.6.10
+* TransDecoder v5.5.0
+* BlastP 
+* Bowtie2 v2.3
 
-You should also have folders that contain the following scripts:
-* 
-*
-
+You should also have the following scripts:
+* proteinortho5.pl from proteinortho_v5.16b
+* align_and_estimate_abundance.pl from trinityrnaseq-Trinity-v2.4.0
 
 
 
@@ -48,7 +47,7 @@ Three main elements must be placed in the folder where you want to launch script
 2) File 'result.fasta' where protein sequences of related species for protein family of interest are placed
 3) Folder rsem_results where you should place results of estimate_abundance.sh script work
 
-You also should place in your folder next files: 
+You should also place next files in your folder: 
 Substrings_1.py
 dash_remover.py
 inner_extract.py
